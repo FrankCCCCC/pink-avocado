@@ -5,6 +5,7 @@
  */
 
 const React = require("react");
+const _ = require('lodash');
 const safePrefix = require("./src/utils/safePrefix").default;
 
 exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
